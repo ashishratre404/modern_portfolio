@@ -107,7 +107,7 @@ section.profile .right ul.socials li a{
     width: 36px;
     color: var(--pure);
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 25px;
     text-align: center;
     line-height: 50px;
 }
@@ -302,28 +302,6 @@ section.skills .content .right .talent_wrap .talent p:nth-child(2){
 /* Work  */
 
 
-section.work .wrapper{
-    display: flex;
-}
-section.work .wrapper .slider{
-    width: 50%;
-}
-section.work .wrapper .portfolio{
-    width: 50%;
-}
-section.work .wrapper .slider>div{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-}
-section.work .wrapper .slider img{
-    width: 90%;
-    /* height: 90%; */
-}
 section.work .wrapper .portfolio .tabs ul {
     list-style: none;
     display: flex;
@@ -347,11 +325,16 @@ section.work .wrapper .portfolio .portfolio_wrapper{
     margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
+}
+section.work .wrapper .portfolio .portfolio_wrapper .item{
+    width: 24%;
+    height: 300px;
+    margin-top: 20px;
 }
 section.work .wrapper .portfolio .portfolio_wrapper a img{
     width: 100%;
     height: 100%;
-    padding: 10px;
 }
 
 /* contact */

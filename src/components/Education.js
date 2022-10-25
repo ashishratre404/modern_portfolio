@@ -22,15 +22,10 @@ const Education = () =>{
                                         <p>DY Patil Internaional University Pune</p>
                                     </div>
                                     <div className='item'>
-                                        <p>2018 - 2019</p>
-                                        <p className='center'>!2th Grade</p>
+                                        <p>2017 - 2018</p>
+                                        <p className='center'>12th Grade</p>
                                         <p>JNV Korba (C.G.)</p>
                                     </div>
-                                    {/* <div className='item'>
-                                        <p>2019 - Present</p>
-                                        <p className='center'>High School</p>
-                                        <p>Secondary Education</p>
-                                    </div> */}
                                 </div>
                             </div>
                             <div className='exprience'>
@@ -40,20 +35,15 @@ const Education = () =>{
                                 </div>
                                 <div className='timeline_wrapper'>
                                     <div className='item'>
-                                        <p>Jun 2021 - Present</p>
-                                        <p className='center'>Web Development Intern</p>
-                                        <p>The Sparks Foundation</p>
+                                        <p>Sep 2022 - Present</p>
+                                        <p className='center'>Software Development Intern</p>
+                                        <p>Guardinex Inc</p>
                                     </div>
                                     <div className='item'>
-                                        <p>2020 - Present</p>
-                                        <p className='center'>Web Development</p>
-                                        <p>Freelance</p>
+                                        <p>July 2022 - Sep 2022</p>
+                                        <p className='center'>Web Development Intern</p>
+                                        <p>CHCT India</p>
                                     </div>
-                                    {/* <div className='item'>
-                                        <p>2019 - Present</p>
-                                        <p className='center'>High School</p>
-                                        <p>Secondary Education</p>
-                                    </div> */}
                                 </div>
                             </div>
                         </div>

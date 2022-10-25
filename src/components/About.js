@@ -11,7 +11,7 @@ const About = () =>{
                     <div className='content'>
                         <div className='left'>
                             <h2>I'm Ashsih Ratre</h2>
-                            <p>A second year undergrad at DY Patil International University, Pune. 
+                            <p>A final year undergrad at DY Patil International University, Pune. 
                             An enthusiastic student with highly motivated and leadership quality exploring Computer Science 
                             and trying hand on new technologies. </p>
                             <button><a href='https://drive.google.com/file/d/135-Qln-iJjW-cFxdpREA4YPnWjhd3eaz/view' target="_blank" rel="noopener noreferrer">Download CV</a></button>

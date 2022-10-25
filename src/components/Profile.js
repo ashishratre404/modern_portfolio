@@ -2,8 +2,7 @@ import React from 'react';
 
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import FacebookIcon from '@material-ui/icons/Facebook'; 
-// import { Link } from '@material-ui/core';
+
 
 const Profile = () =>{
     return(
@@ -13,7 +12,7 @@ const Profile = () =>{
                     <div className='left'>
                         <div>
                             <h1>Ashish Ratre</h1>
-                            <h4>Web Developer</h4>
+                            <h4>Software Developer</h4>
                         </div>
                     </div>
                     <div className='right'>
@@ -23,13 +22,10 @@ const Profile = () =>{
                         </ul>
                         <ul className='socials'>
                             <li>
-                                <a href='https://www.linkedin.com/in/ashish-ratre-19b9b81b5/' target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a>
+                                <a href='https://www.linkedin.com/in/ashish-ratre/' target="_blank" rel="noopener noreferrer"><LinkedInIcon className='linkedicon'/></a>
                             </li>
                             <li>
                                 <a href='https://github.com/ashishratre404' target="_blank" rel="noopener noreferrer"><GitHubIcon/></a>
-                            </li>
-                            <li>
-                                <a href='https://www.facebook.com/ashish.ratre.908' target="_blank" rel="noopener noreferrer"><FacebookIcon/></a>
                             </li>
                         </ul>
                     </div>

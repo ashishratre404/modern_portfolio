@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <>
             <footer className='container'>
-                <span> ©️2021: created by Ash..</span>
+                <span> ©️2022: created by Ashish</span>
             </footer>
         </>
     )

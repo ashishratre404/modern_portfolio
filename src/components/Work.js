@@ -1,11 +1,6 @@
 import React, {useState} from 'react';
 import Sample from '../Datas/Sample';
 
-// import Chat from './images/chat.jpg';
-// import GK from './images/googlekeep.jpg';
-// import weather from './images/weather.jpg';
-import worksvg from './Svg/img1.svg';
-
 const Work = () => {
 
     const [activeTab, setactiveTabe] = useState(1)
@@ -30,11 +25,6 @@ const Work = () => {
                 <section className='work'>
                     <h1 className='section_heading'>Portfolio</h1>
                     <div className='wrapper'>
-                        <div className='slider'>
-                            <div>
-                                <img src={worksvg} alt='images' /> 
-                            </div>
-                        </div>
                         <div className='portfolio'>
                             <div className='tabs'>
                                 <ul>
@@ -60,39 +50,7 @@ const Work = () => {
                                     )
                                 })
                             }
-
-                            {/* <div className='portfolio_wrapper'>
-                                <div className='item web'>
-                                    <a href='https://latest-weather.herokuapp.com/'>
-                                        <img src={weather} alt='Weather' />
-                                    </a>
-                                </div>
-                                <div className='item web'>
-                                    <a href='https://ashishratre404.github.io/google-keep-clone/'>
-                                        <img src={GK} alt='GoogleKeep' />
-                                    </a>
-                                </div>
-                                <div className='item python'>
-                                    <a href='#'>
-                                        <img src={weather} alt='shooter' />
-                                    </a>
-                                </div>
-                                <div className='item web'>
-                                    <a href='https://chitchat-live-chat-platform.herokuapp.com/'>
-                                        <img src= {Chat} alt='Chat' />
-                                    </a>
-                                </div>
-                                <div className='item game'>
-                                    <a href='#'>
-                                        <img src={weather} alt='rps' />
-                                    </a>
-                                </div>
-                                <div className='item game'>
-                                    <a href='#'>
-                                        <img src={weather} alt='Web' />
-                                    </a>
-                                </div>
-                            </div>*/}
+                            
                             </div>
                         </div> 
                     </div>
