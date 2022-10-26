@@ -14,7 +14,7 @@ const About = () =>{
                             <p>A final year undergrad at DY Patil International University, Pune. 
                             An enthusiastic student with highly motivated and leadership quality exploring Computer Science 
                             and trying hand on new technologies. </p>
-                            <button><a href='https://drive.google.com/file/d/135-Qln-iJjW-cFxdpREA4YPnWjhd3eaz/view' target="_blank" rel="noopener noreferrer">Download CV</a></button>
+                            <button><a href='https://drive.google.com/file/d/1t_64X6SqzdeORj6ahacCre0bOLR8G8Kc/view?usp=sharing' target="_blank" rel="noopener noreferrer">Download CV</a></button>
                         </div>
                         <div className='right'>
                             <p><span>Name</span> <span>Ashish Ratre</span></p>

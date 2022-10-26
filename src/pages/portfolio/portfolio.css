@@ -1,0 +1,57 @@
+/* menu */
+.menu{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--primary);
+}
+.menu_container{
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    padding: 2.5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 25% 100%, 0 80%);
+    padding-bottom: 4rem;
+}
+
+/* portfolio */
+.allworks{
+    width: 90%;
+    margin: 0 auto;
+}
+section.work{
+    min-height: calc(100vh - 104px);
+}
+section.work .wrapper .portfolio .tabs ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+section.work .wrapper .portfolio .tabs ul li{
+    color: var(--fade);
+    border-bottom: 1px solid transparent;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+section.work .wrapper .portfolio .tabs ul li.active{
+    border-color: var(--info);
+    color: var(--info);
+}
+section.work .wrapper .portfolio .portfolio_wrapper{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+section.work .wrapper .portfolio .portfolio_wrapper .item{
+    width: 24%;
+    height: 300px;
+    margin-top: 20px;
+}
+section.work .wrapper .portfolio .portfolio_wrapper a img{
+    width: 100%;
+    height: 100%;
+}

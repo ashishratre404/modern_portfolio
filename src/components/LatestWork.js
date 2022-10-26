@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Sample from '../Datas/Sample';
 
-const Work = () => {
+const LatestWork = () => {
 
     const [activeTab, setactiveTabe] = useState(1)
     const [workitem, setworkitem] = useState(Sample)
@@ -21,17 +21,15 @@ const Work = () => {
 
     return(
         <>
-            <main className='allworks'>
-                <section className='work'>
+            <main className='container'>
+                <section className='latest_work'>
                     <h1 className='section_heading'>Portfolio</h1>
                     <div className='wrapper'>
                         <div className='portfolio'>
                             <div className='tabs'>
                                 <ul>
-                                    <li onClick={() => toggletab(1)} className={activeTab === 1 && 'active'}>All</li>
-                                    <li onClick={() => toggletab(2, 'website')} className={activeTab === 2 && 'active'}>Web Dev</li>
-                                    <li onClick={() => toggletab(3, 'python')} className={activeTab === 3 && 'active'}>Python</li>
-                                    <li onClick={() => toggletab(4, 'game')} className={activeTab === 4 && 'active'}>Games</li>
+                                    <li onClick={() => toggletab(1)} className={activeTab === 1 && 'active'}>Ltest Projects</li>
+                                    <li onClick={() => toggletab(2, 'website')} className={activeTab === 2 && 'active'}>All Projects</li>
                                 </ul>
                             </div>
                             <div className='portfolio_wrapper' >
@@ -45,8 +43,7 @@ const Work = () => {
                                                 <a href={link} target={link !== '/' && "_blank"} rel={link !== '/' && "noopener noreferrer"}>
                                                     <img src={image} alt='images' />
                                                 </a>
-                                            </div>
-                                        
+                                            </div>     
                                     )
                                 })
                             }
@@ -59,4 +56,4 @@ const Work = () => {
         </>
     )
 }
-export default Work;
+export default LatestWork;
