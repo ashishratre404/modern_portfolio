@@ -12,6 +12,71 @@
     clip-path: polygon(0 0, 100% 0, 100% 80%, 25% 100%, 0 80%);
     padding-bottom: 4rem;
 }
+section.menu_container .left{
+    flex: 2;
+}
+section.menu_container .left>div{
+    position: relative;
+    padding: 1rem;
+    display: inline-block;
+}
+section.menu_container .left>div::before{
+    content:'';
+    width: 90px;
+    height: 50px;
+
+    position: absolute;
+    left: 0;
+    top:0;
+    border-top:3px solid #ec1839;
+    border-left:3px solid #ec1839;
+}
+section.menu_container .left>div::after{
+    content:'';
+    width: 90px;
+    height: 50px;
+
+    position: absolute;
+    right: 0;
+    bottom:0;
+    border-bottom:3px solid #ec1839;
+    border-right:3px solid #ec1839;
+}
+section.menu_container .right{
+    flex: 1;
+    margin-left: 15rem;
+}
+section.menu_container .left h1{
+    color: var(--fade);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+section.menu_container .right ul.pages_links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+section.menu_container .right ul.pages_links li{
+    color: white;
+    font-size: 1.2rem;
+    background-color: var(--black);
+    cursor: pointer;
+    padding: 8px 20px;
+    border: 2px solid var(--fade);
+}
+section.menu_container .right ul.pages_links li:hover{
+    color: var(--black);
+    background-color: white;
+    border: 2px solid var(--black);
+}
+section.menu_container .right ul.pages_links li.active{
+    color: var(--black);
+    background-color: white;
+    border: 2px solid var(--black);
+}
+
+
 
 /* portfolio */
 .allworks{
@@ -19,7 +84,7 @@
     margin: 0 auto;
 }
 section.work{
-    min-height: calc(100vh - 104px);
+    min-height: calc(100vh - 198px);
 }
 section.work .wrapper .portfolio .tabs ul {
     list-style: none;
