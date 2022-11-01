@@ -8,7 +8,7 @@ const Menu = () => {
         <section className="menu_container">
           <div className="left">
             <div>
-              <h1>Ashish Ratre</h1>
+              <h1 data-testid='logotest'>Ashish Ratre</h1>
             </div>
           </div>
           <div className="right">

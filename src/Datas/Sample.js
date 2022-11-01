@@ -43,7 +43,13 @@ const Sample = [
   },
   {
     id: 8,
-    image: "images/laptop price prediction.png",
+    image: "images/map-pin.jpeg",
+    category: "website",
+    link: "/",
+  },
+  {
+    id: 9,
+    image: "images/hotels.jpeg",
     category: "website",
     link: "/",
   },

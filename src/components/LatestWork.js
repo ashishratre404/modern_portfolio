@@ -24,7 +24,7 @@ const LatestWork = () => {
               </div>
               <div className="portfolio_wrapper">
                 {LatestWorks.map((cur) => {
-                  const { id, image,  link } = cur;
+                  const { id, image, link } = cur;
                   return (
                     <div className="item" key={id}>
                       <a
