@@ -484,8 +484,14 @@ footer{
     section.skills .content .right{
         width: 100%;
     }
+    section.skills .content .left .exprience {
+        margin-left: -30px;
+      }
 
     /* work  */
+    section.latest_work{
+        padding: 1rem;
+    }
   
     section.latest_work .wrapper .portfolio .portfolio_wrapper .item{
         width: 100%;
@@ -609,15 +615,11 @@ footer{
         letter-spacing: 0.5px;
     
     }
-    section.latest_work .section_heading {
-        margin-left: -20px;
-    }
     section.latest_work .wrapper .portfolio .portfolio_wrapper{
         margin-top: 1rem;
     }
-    
-
 }
+
 
 
 
